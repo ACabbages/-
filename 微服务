@@ -1,11 +1,23 @@
 
 1、api网关和微服务网关（ngnix-kong-gateway-zuul）
-   
+   api网关是一个中心化的服务，主要的功能有：安全防护（白名单）、消息转发、服务认证、流量监控与容错、协议适配、统一接入
+   微服务网关：
 
 
 2、cap,base理论，柔性事物
+   
+   
+
 3、微服务为什么用eurka不用zookper
-4、分布式事物解决方案(seata,Himler、dubbo)、rockmq、TCC（try，com from.cancel）
+
+
+4、分布式事物解决方案(seata,Himler、dubbo)、rockmq、TCC（try，comfrom.cancel）
+
+
 5、单点登录sso.
+
+
 6、微服务熔断，服务降级，限流、链路追踪、容灾
+
+
 7、MySQL冷备、热备、温备
