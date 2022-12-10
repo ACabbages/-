@@ -1,15 +1,15 @@
 
 1、api网关和微服务网关（ngnix-kong-gateway-zuul）
    api网关是一个中心化的服务，主要的功能有：安全防护（白名单）、消息转发、服务认证、流量监控与容错、协议适配、统一接入
-   微服务网关：
+   微服务网关：是集群网关
 
 
 2、cap,base理论，柔性事物
-   
+   cap理论：c表示一致性，a表示可用性，p表示分区容错性
    
 
-3、微服务为什么用eurka不用zookper
-
+3、微服务为什么用eureka不用zookper
+   为什么用eureka不用zookper是因为在微服务的架构中，可用性高于一致性，因为微服务大多是集群，很容易出现不一致情况。
 
 4、分布式事物解决方案(seata,Himler、dubbo)、rockmq、TCC（try，comfrom.cancel）
 
